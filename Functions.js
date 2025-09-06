@@ -1,9 +1,9 @@
-function greet(){
-    console.log("welcome to programming")
+function greet(user){
+    console.log("welcome to programming", user)
 }
-
+user = "Ayra"
 greet()
-
+greet(user)
 /*
 function add(x,y){
     return x+y
